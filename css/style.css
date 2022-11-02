@@ -120,6 +120,7 @@
   color: #FFFFFF;
 }
 
+
 .boton-banner{
   width: 8rem;
   padding: 1rem
@@ -148,7 +149,7 @@
 .parte-superior{
   display: flex;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: inherit;
   align-items: baseline;
   color: #FFFFFF;
@@ -347,6 +348,15 @@
   margin-top: 12%;  
 }
 
+.parte-superior{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: inherit;
+  align-items: baseline;
+  color: #FFFFFF;
+ margin-bottom: 0.8rem;
+}
 .productos{
   display: flex;
   flex-direction: row;
